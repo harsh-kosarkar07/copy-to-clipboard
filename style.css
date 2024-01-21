@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(14, 12, 78);
+}
+
+.copy-container {
+  text-align: center;
+  margin: 20px;
+}
+
+h1{
+  color: white;
+  margin-bottom: 50px;
+}
+
+#copyText {
+  width: 300px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.copy-button {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.copy-button.copied {
+  background-color: #1d6d21 !important;
+}
